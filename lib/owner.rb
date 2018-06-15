@@ -23,7 +23,7 @@ class Owner
   end
   
   def say_species
-    return "I am a #{@species}."
+    "I am a #{@species}."
   end
   
   def buy_fish(fish_name)

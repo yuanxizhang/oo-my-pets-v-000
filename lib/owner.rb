@@ -45,15 +45,15 @@ class Owner
   end 
   
   def feed_fish(fish) 
-    @pets[:fish].find(fish).mood = "excited"
+    @pets[:fishes].find(fish).mood = "excited"
   end
   
   def play_with_car(cat) 
-    @pets[:cat].find(cat).mood = "playful"
+    @pets[:cats].find(cat).mood = "playful"
   end
   
   def walk_dogs(dog) 
-    @pets[:dog].find(dog).mood = "hungry"
+    @pets[:dogs].find(dog).mood = "hungry"
   end
 end
 

@@ -44,16 +44,16 @@ class Owner
     new_cat
   end 
   
-  def feed_fish(fish) 
-    @pets[:fishes].find(fish).mood = "excited"
+  def feed_fish
+    @pets[:fishes].each {|fish| fish.mood = "excited"}
   end
   
-  def play_with_car(cat) 
-    @pets[:cats].find(cat).mood = "playful"
+  def play_with_cats
+    @pets[:cats].each {|cat| cat.mood = "playful"}
   end
   
   def walk_dogs
-    @pets[:dogs].find(dog).mood = "hungry"
+    @pets[:dogs].each {|dog| dog.mood = "hungry"|
   end
 end
 

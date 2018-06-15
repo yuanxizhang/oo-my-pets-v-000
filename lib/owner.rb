@@ -60,9 +60,9 @@ class Owner
     @pets[:fishes].clear
     @pets[:cats].clear
     @pets[:dogs].clear
-    @pets[:fishes].each {|fish| fish.mood = "happy"}
-    @pets[:cats].each {|fish| fish.mood = "happy"}
-    @pets[:dogs].each {|fish| fish.mood = "happy"}
+    @pets[:fishes].each {|fish| fish.mood = "nervous"}
+    @pets[:cats].each {|fish| fish.mood = "nervous"}
+    @pets[:dogs].each {|fish| fish.mood = "nervous"}
     
   end
 end

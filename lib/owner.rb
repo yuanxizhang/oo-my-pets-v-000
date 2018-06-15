@@ -57,10 +57,3 @@ class Owner
   end
 end
 
-# katie = Owner.new("human")
-# puts Owner.all
-# nemo = katie.buy_fish("Nemo")
-# puts "Nemo's mood: #{nemo.mood}"
-# puts katie.pets
-# katie.feed_fish("Nemo")
-# puts "Nemo's mood: #{nemo.mood}"

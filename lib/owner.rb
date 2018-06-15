@@ -60,7 +60,6 @@ class Owner
     @pets[:fishes].clear
     @pets[:cats].clear
     @pets[:dogs].clear
-    
   end
 end
 

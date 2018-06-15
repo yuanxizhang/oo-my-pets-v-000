@@ -52,7 +52,7 @@ class Owner
     @pets[:cats].find(cat).mood = "playful"
   end
   
-  def walk_dogs(dog) 
+  def walk_dogs
     @pets[:dogs].find(dog).mood = "hungry"
   end
 end
